@@ -33,7 +33,7 @@ public class SeleniumLoginTest {
     }
 
     @Test
-    public void testName() {
+    public void getLandingPageTitle() {
         driver.navigate().to("https://www.saucedemo.com");
         Assert.assertEquals("Swag Labs", driver.getTitle());
     }
